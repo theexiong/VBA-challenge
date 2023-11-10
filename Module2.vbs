@@ -86,7 +86,7 @@ For Each ws In Worksheets
         
         Next i
         
-        For j = 2 To 3001
+        For j = 2 To LastRow
         
 		'loop through percent change to find greatest increase value
             If ws.Range("K" & j).Value > Greatest_In Then
